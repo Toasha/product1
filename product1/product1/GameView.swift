@@ -3,7 +3,7 @@ import AVFoundation
 import CoreGraphics
 import Combine
 
-struct QA: Identifiable, Hashable {
+struct QA: Identifiable {
     let id = UUID()
     let left: String
     let right: String
